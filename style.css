@@ -1,0 +1,95 @@
+:root {
+    --logo-color: #95E1D3;
+    --hover-color: #F38181;
+    --title-color: #333;
+    --text-color: #B6B6B6;
+    --background-color: #FFF;
+}
+
+ul {
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header {
+    padding-top: 17px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--logo-color);
+}
+
+.navigation-link {
+    color: var(--logo-color);
+}
+
+.navigation-link:hover .navigation-link:focus {
+    color: var(--hover-color);
+}
+
+.name {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+
+   
+
+.title {
+    font-size: 30px;
+
+    font-weight: 700;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    font-variant: all-small-caps;
+
+    margin-bottom: 40px;
+
+    color: var(--title-color);
+}
+.img{
+    width: 37px;
+    height:37px ;
+}
+.service-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--title-color);
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+.service-name{
+    font-weight:15px ;
+    line-height:147%;
+    color: var(--text-color);
+}
